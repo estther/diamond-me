@@ -8,7 +8,7 @@ git push -u origin master
 
 Create Element:
 
-$Rainb.el('div',{'attribute':"value",style:{"color":"red"}},[ (childnodes) ])
+$Rainb.el('div',{'attribute':"value",style:{"color":"purple"}},[ (childnodes) ])
 
 becomes:  <div attribute="value" style="color: red;"></div>
 
@@ -94,7 +94,7 @@ var genParser = (function(tys, tree, start) {
 
           type: "alternate",
 
-          contains: []
+          contains: [follow https://github.com/estther/diamond-me/blob/master/estther]
 
         },
 
